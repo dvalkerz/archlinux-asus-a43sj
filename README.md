@@ -27,7 +27,7 @@ sudo pacman -S --needed git
 ```
 ### 2. Clone This Repo
 ```bash
-git clone https://github.com/dvalkerz/install-script-archlinux-asus-a43sj.git
+git clone https://github.com/dvalkerz/archlinux-asus-a43sj.git
 ```
 ### 3. Go to the repo folder
 ```bash
@@ -35,15 +35,20 @@ cd YOUR-REPO
 ```
 ### 4. Make the Script Executable
 ```bash
-chmod +x asus-a43sj-setup.sh
+chmod +x install.sh
 ```
 ### 5. Run the Script
 ```bash
-sudo ./asus-a43sj-setup.sh
+sudo ./install.sh
 ```
 
 ### Using curl
 ```bash
-curl -sL https://raw.githubusercontent.com/dvalkerz/install-script-archlinux-asus-a43sj/main/asus-a43sj-arch-setup.sh | bash
+curl -sL https://raw.githubusercontent.com/dvalkerz/archlinux-asus-a43sj/main/install.sh | bash
+```
+
+### Using wget
+```bash
+wget -qO- https://raw.githubusercontent.com/dvalkerz/archlinux-asus-a43sj/main/install.sh | bash
 ```
 
